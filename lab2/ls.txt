@@ -1,0 +1,12 @@
+.:
+total 4
+drw-r--r--. 2 stephan users 22 дек  3 20:48 dir
+-r--r-----. 1 root    users  5 дек  3 20:42 file
+-rw-------. 1 stephan users  0 дек  3 20:56 file1
+-rw-rw-rw-. 1 stephan users  0 дек  3 20:57 file2
+-rw-rw-rw-. 1 stephan users  0 дек  3 21:10 ls.txt
+
+./dir:
+ls: cannot access './dir/new_file': Permission denied
+total 0
+-????????? ? ? ? ?            ? new_file

@@ -1,0 +1,38 @@
+   10  cd
+   11  mkdir test
+   12  cd test
+   13  touch file 
+   14  ll
+   15  chmod 000 file
+   16  echo "тест" > file
+   17  cat file
+   18  chmod 200 file
+   19  echo test > file
+   20  ll
+   21  cat file
+   22  chmod 240 file
+   23  cat file
+   24  chmod 640 file
+   25  ll
+   26  cat file
+   27  mkdir dir
+   28  cd dir
+   29  touch new_file
+   30  echo "file 2" > new_file
+   31  ls
+   32  cd ..
+   33  chmod a-x dir
+   34  cat dir/new_file
+   35  ll
+   36  chown root file
+   37  chgrp root file
+   38  umask 077
+   39  touch file1
+   40  ll file1
+   41  umask 000
+   42  touch file2
+   43  ll file2
+   44  su
+   45  cat file
+   46  su
+   47  cat file
