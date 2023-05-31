@@ -1,0 +1,7 @@
+302 id
+303 pwd
+304 touch file1
+305 echo 'Hello, world!' > file1
+306 cat file1
+307 chmod 600 file1
+308 history > userhistory

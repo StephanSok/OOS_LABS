@@ -1,0 +1,16 @@
+121 auditctl -D
+122 auditctl -w /home/stephan/Labs/OOS_LABS/lab11/file1 -p war -k stephan_file1
+123 auditctl -l
+124 aureport --file -ts today -i --summary
+125 aureport --file -ts recent
+126 ausearch -a 13053
+127 ausearch -a 453
+128 ausearch -a 9328
+129 aureport --file -ts recent
+130 ausearch -a 652
+131 aureport
+132 aureport --auth -ts recent
+133 aureport --user -ts recent -i
+134 ausearch --uid 1001 -ts recent
+135 ausearch --uid 1000 -ts recent
+136 history > roothistory
